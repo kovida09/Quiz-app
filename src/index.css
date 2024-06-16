@@ -1,0 +1,130 @@
+body {
+  margin: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0c0b0b;
+  background-image: url('C:\Users\kovid\OneDrive\Pictures\quiz.jpg');
+  /* Adjust the path as per your project structure */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image */
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.fullscreen-prompt {
+  background-color: #100e0e;
+  /* background-image: url('C:\Users\kovid\OneDrive\Pictures\quiz.jpg'); */
+  padding: 20px;
+  border: 1px solid #650808;
+  border-radius: 15px;
+  box-shadow: 0 4px 9px rgba(168, 147, 147, 0.1);
+}
+
+.fullscreen-prompt h2 {
+  margin: 0 0 20px;
+  color:white;
+}
+
+.fullscreen-prompt button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color:white;
+  background-color: red;
+  
+}
+
+.quiz-container {
+  background-color: #0e0d0d;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  color:white;
+}
+
+.quiz-container .timer {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.quiz-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:white
+}
+
+.quiz-container ul {
+  list-style-type: none;
+  padding: 0;
+  color:white;
+  
+}
+
+.quiz-container ul li {
+  margin-bottom: 10px;
+  color:white;
+}
+
+.quiz-container ul li button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  
+}
+
+.summary-container {
+  background-image: url('C:\Users\kovid\OneDrive\Pictures\i.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  width: 100vw; 
+  height: 160vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  overflow-y: auto; 
+}
+
+.summary-container h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: rgb(218, 10, 190); /* Font color for h2 elements inside summary container */
+}
+.summary-container h3 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  color: rgb(227, 103, 206); /* Font color for h2 elements inside summary container */
+}
+
+.summary-container p {
+  
+  color: white;
+  font-size: 30;
+   /* Font color for paragraphs inside summary container */
+}
+
+.summary-container ul {
+  list-style-type: none;
+  padding: 7;
+}
+
+.summary-container ul li {
+  margin-bottom: 10px;
+  color: white; /* Font color for list items inside summary container */
+}
