@@ -227,6 +227,8 @@ import Quiz from './components/Quiz';
 import FullScreenPrompt from './components/FullScreenPrompt';
 import Summary from './components/Summary';
 import questions from './assets/questions.json';
+import quiz from './images/quiz.jpg';
+import i from './images/i.jpg';
 
 // Correct answers provided separately
 const correctAnswersList = [

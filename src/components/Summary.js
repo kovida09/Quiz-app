@@ -1,4 +1,7 @@
 import React from 'react';
+import quiz from '../images/quiz.jpg';
+import i from '../images/i.jpg';
+
 
 const Summary = ({ score, answers, correctAnswers }) => {
   return (

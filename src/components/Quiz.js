@@ -24,6 +24,9 @@
 
 // export default Quiz;
 import React, { useEffect } from 'react';
+import quiz from '../images/quiz.jpg';
+import i from '../images/i.jpg';
+
 
 const Quiz = ({ questions, currentQuestion, timeLeft, onAnswer }) => {
   const question = questions[currentQuestion];
